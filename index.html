@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acerca de mi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <hearder>
+        <h1>Portfolio de Enzo</h1>
+        <nav>
+            <ul class="menu">
+                <li class="menu-list"><a href="#info-personal">Información personal</a></li>
+                <li class="menu-list"><a href="#habilidades">Habilidades</a></li>
+                <li class="menu-list"><a href="#contacteme">Contacteme</a></li>   
+            </ul>
+        </nav>   
+    </hearder>
+    <section>
+        <div id="info-personal">
+            <h2>Informacion Personal</h2>
+            <img src="img/Foto de perfil.jpg" alt="foto de perfil">
+            <p>Nombre: Enzo Baspineiro</p>
+            <p>Edad: 25 años</p>
+            <p>Profesión: Desarrollador FrontEnd</p>
+        </div>
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript basico</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contacteme" class="contacteme">
+        <h2 class="contacteme-titulo">Contacteme</h2>
+        <form action="#" method="post" class="contacteme-form">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="correo">E-mail</label>
+            <input type="email" id="correo" name="correo"><br>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto"><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="50"></textarea><br>
+
+            <input class="form-button" type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        Copyright (c) 2023. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
